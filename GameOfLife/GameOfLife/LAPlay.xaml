@@ -1,0 +1,14 @@
+﻿<Window x:Name="LAWindow" x:Class="GameOfLife.LAPlay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:wpfx="clr-namespace:Xceed.Wpf.Toolkit;assembly=Xceed.Wpf.Toolkit"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameOfLife"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="GoLPlay" Height="450" Width="800" Background="#FFFDFDFD" MouseWheel="LAWindow_MouseWheel">
+    <Grid ClipToBounds="True">
+        <Canvas x:Name="Area" HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="794" Margin="0,0,-0.4,0" Background="Gray" ClipToBounds="True" MouseRightButtonUp="Area_MouseRightButtonUp"/>
+    </Grid>
+</Window>
